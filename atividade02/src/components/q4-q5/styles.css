@@ -1,0 +1,32 @@
+html {
+    background-color: aliceblue;
+}
+
+.containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: gray;
+    margin-top: 40px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.photo{
+    background-color: rgb(92, 92, 92);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+h1 {
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 20px;
+    max-width: 400px;
+}
+
