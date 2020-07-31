@@ -1,8 +1,8 @@
 ## Usando .env para criar variaveis de ambiente, caso não funcione rode:
--> usando npm 
+-> usando npm:
 npm install dotenv
  
--> ou usando Yarn 
+-> ou usando Yarn: 
 yarn add dotenv
 
 #
