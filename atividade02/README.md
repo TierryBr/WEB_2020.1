@@ -1,3 +1,12 @@
+## Usando .env para criar variaveis de ambiente, caso não funcione rode:
+# usando npm 
+npm install dotenv
+ 
+# ou usando Yarn 
+yarn add dotenv
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
