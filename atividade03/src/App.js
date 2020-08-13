@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Create from './components/Create'
 import Home from './components/Home'
 import List from './components/List'
+import Edit from './components/Edit'
 
 import './App.css'
 
@@ -38,6 +39,7 @@ export default class App extends Component {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/create' component={Create} />
+            <Route path='/edit/:id' component={Edit} />
             <Route path='/list' component={List} />
             {/* <Route path='/edit/:id' component={Edit} /> */}
 

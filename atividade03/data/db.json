@@ -3,26 +3,14 @@
     {
       "nome": "WEB",
       "curso": "Sistemas de Informação",
-      "capacidade": "70",
+      "capacidade": "50",
       "id": 1
     },
     {
       "nome": "FUP",
       "curso": "Sistemas de Informação",
-      "capacidade": "50",
+      "capacidade": "80",
       "id": 2
-    },
-    {
-      "nome": "CSGBD",
-      "curso": "Sistemas de Informação",
-      "capacidade": "60",
-      "id": 3
-    },
-    {
-      "nome": "ES",
-      "curso": "Sistemas de Informação",
-      "capacidade": "44",
-      "id": 4
     }
   ]
 }
