@@ -1,0 +1,18 @@
+{
+  "name": "atividade05",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www ",
+    "star": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "esm": "^3.2.25",
+    "express": "~4.13.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "disciplinas": [
+    {
+      "nome": "WEB",
+      "curso": "Sistemas de Informação",
+      "capacidade": "50",
+      "id": 1
+    },
+    {
+      "nome": "FUP",
+      "curso": "Sistemas de Informação",
+      "capacidade": "80",
+      "id": 2
+    }
+  ]
+}
