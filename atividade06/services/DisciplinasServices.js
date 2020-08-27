@@ -1,11 +1,7 @@
 const DisciplinasModel = require('../models/DisciplinasModel')
 
-let disciplinas = [
-    {_id:0, nome:'FUP1', curso:'SI', capacidade:100},
-    {_id:1, nome:'FUP2', curso:'SI', capacidade:100},
-    {_id:2, nome:'FUP3', curso:'SI', capacidade:100},
-]
-let _id = 3
+let disciplinas = []
+let _id = 0
 
 class DisciplinasServices{
     static register(data) {
@@ -28,7 +24,7 @@ class DisciplinasServices{
             if(e._id == _id) {
                 e.nome = data.nome
                 e.curso = data.curso
-                e.IRA = data.IRA
+                e.capacidade = data.capacidade
                 return e
             }
         }
@@ -38,7 +34,7 @@ class DisciplinasServices{
     static delete(_id) {
         for(let i = 0; i < disciplinas.length; i++) {
             if(disciplinas[i]._id == _id) {
-                disciplinas.slice(i,1)
+                disciplinas.splice(i,1)
                 return true
             }
         }
